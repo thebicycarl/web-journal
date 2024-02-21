@@ -70,19 +70,21 @@ main {
     flex: 1;
 }
 
+.inputSection {
+    width: 100%;
+    max-width: 1000px;
+}
 .inputBar {
     display: flex;
     width: 100%;
     margin: 12px auto;
-    max-width: 700px;
-    gap: 14px;
+    max-width: 900px;
+    /* gap: 14px; */
     border: 1px solid var(--secondary-color);
     padding: 10px;
     border-radius: 24px;
     transition: 300ms;
     align-items: center;
-    
-
 }
 
 .inputBar:hover {
@@ -97,6 +99,7 @@ input {
     border: none;
     color: white;
     flex: 1; 
+    padding-left: 6px;
 }
 
 ::placeholder {
@@ -113,6 +116,10 @@ input {
     cursor: pointer;
 }
 
+.category {
+    padding-left: 12px;
+}
+
 
 .iconButton:last-child {
     padding-right: 8px;
@@ -126,8 +133,12 @@ input {
     font-style: italic;
     opacity: 0.5;
 }
-.addedEntry {
+
+.entriesSection{
     max-width: 800px;
+}
+.addedEntry {
+    padding: 12px;
 }
 
 footer {

@@ -35,23 +35,17 @@
         </div>
     </header>
     <main>
-        <section class="mainSection">
+        <section class="inputSection">
             <div class="inputBar">
                 <div>
                     <i class="fa-solid fa-chevron-up"></i>
                 </div>
                 <input type="text" id="mainInput" placeholder="New entry...">
-                <button class="iconButton"><i class="fa-solid fa-plus"></i></button>
-                <button class="iconButton"><i class="fa-solid fa-bars"></i></button>
+                <button class="iconButton" id="addEntry"><i class="fa-solid fa-plus"></i></button>
+                <button class="iconButton category"><i class="fa-solid fa-bars"></i></button>
             </div>
-            <div>
-                <p class="date">18 Feb 2024</p>
-            </div>
-            <div class="addedEntry">
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Delectus facilis perspiciatis voluptates
-                    doloribus bla bla bla architecto fugiat ipsum iusto, similique eveniet distinctio in explicabo nemo, laboriosam
-                    dolores quo illum! Nesciunt, accusantium libero?</p>
-            </div>
+        </section>
+        <section class="entriesSection" id="entries">
         </section>
     </main>
     <footer>
@@ -61,7 +55,6 @@
             <a href="">Terms</a>
         </div>
     </footer>
-
+    <script src="script.js"></script>
 </body>
-
 </html>
