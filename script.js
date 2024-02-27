@@ -13,8 +13,15 @@ function postEntry() {
     const entryDate = `${dd} ${mmm}`;
 
     const innerEntry = `
-    <div>
-        <p class="date">${entryDate}</p>
+    <div class = "detailBar">
+        <div>
+            <p class ="date">${entryDate}</p>
+        </div>
+        <select class = "entryCategory">
+            <option>Journal</option>
+            <option>Fitness</option>
+            <option>Faith</option>
+        </select>
     </div>
     <div>
         <p>${mainInput.value}</p>

@@ -137,9 +137,29 @@ input {
 .entriesSection{
     max-width: 800px;
 }
+
+
 .addedEntry {
     padding: 12px;
+    display: flex;
+    flex-direction: column;
 }
+
+.detailBar {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.entryCategory {
+    height: 6px;
+    width: 30px;
+    border-radius: 10px;
+    background-color: red;
+    border: none;
+    cursor: pointer;
+}
+
 
 footer {
     display: flex;
